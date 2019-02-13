@@ -1,14 +1,11 @@
-.skyblue {
-    background: skyblue;
-}
-
 .box {
     min-height: 50px;
     padding: 10px;
     margin: 5px;
     font-weight: 200;
     color: black;
-    
+    border-radius: 5px;
+    background-color: white;
   }
 
 .small_img {
@@ -19,27 +16,42 @@
     height: 150px;
 }
 
+.lrg_img {
+    height: 250px;
+}
+
 h1 {
     font-family: "Cooper Black";
-    color: blue;
+    color: rgb(39, 184, 169);
     font-size: 20px;
 }
 
 #background {
-    background-color: lightgrey;
-}
-
-.navbar {
     background-color: whitesmoke;
+}
+
+#navbar {
+    background-color: white;
 
 }
 
-.navbar li {
-    display: inline-block;
-    padding: 20px;
-    margin-right: 10px;
-    margin-left: 10px;
-    cursor: pointer;
-    background: #fff;
-    border-radius: 3px;
+hr {
+    border-color: grey;
+}
+
+.name_box {
+    background-color: rgb(39, 184, 169);
+    padding: 5px;
+    margin-left: 40px;
+}
+
+h2 {
+    color: white;
+    font-family: "Cooper Black";
+    font-size: 20px
+}
+
+.border {
+    border-color: rgb(39, 184, 169);
+    border-width: 10px;
 }
