@@ -4,24 +4,37 @@
 <head>
     <meta charset="utf-8">
     <title> My First HTML</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
     <link rel="stylesheet" href="Resources\weather_style.css">
+    <link rel="stylesheet" href="reset.css">
 
 </head>
 
 <!-- Navigation Bar -->
-<nav class="navbar">
-    <div class="container">
-        <div class="row">
-            <div class="col-lrg-12">
-                <ul>
-                    <li>Plots</li>
-                    <li>Comparison</li>
-                    <li>Data</li>
-                </ul>
-            </div>
-        </div>
-    </div>
+<nav id="navbar">
+    <ul class="nav justify-content-end">
+        <li>
+            <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="true">
+            Plots <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a href="#"></a>Latitude vs. Cloudiness</li>
+                <li><a href="#"></a>Latitude vs. Humidity</li>
+                <li><a href="#"></a>Latitude vs. Temperature</li>
+                <li><a href="#"></a>Latitude vs. Windspeed</li>
+            </ul>
+        </li> 
+        <li>
+            <a class="nav-link" href="#">
+            Comparison
+            </a>
+        </li>
+        <li>
+            <a class="nav-link" href="#">
+            Data
+            </a>
+        </li>
+    </ul>
 </nav>
 
 
@@ -31,8 +44,8 @@
         <div class="row">
 
             <!-- Summary: Latitude vs Cloudiness -->
-            <div class="col-lrg-10 col-sm-6">
-                <div class="box skyblue">
+            <div class="col-md-8 col-sm-6">
+                <div class="box">
                     <h1>Summary: Latitude vs. Cloudiness</h1>
                     <hr>
                     <img class="med_img" src="Resources\Latitude_v_Cloudiness.png">
@@ -45,8 +58,8 @@
             </br>   
 
         <!-- Other Visualizations box -->
-            <div class="col-lrg-2 col-sm-6">
-                <div class="box skyblue">
+            <div class="col-md-4 col-sm-6">
+                <div class="box">
                     <h1>Visualizations</h1>
                     <hr>
                     <img class="small_img" src="Resources\Latitude_v_Humidity.png">
