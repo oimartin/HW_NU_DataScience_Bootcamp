@@ -8,6 +8,16 @@
     background-color: white;
   }
 
+@media (max-width: 800px) {
+    .lrg_img {
+        max-width: 100%;
+        height: auto;
+        width: auto;
+        
+    }
+}
+
+
 .small_img {
     height: 100px;
 }
@@ -52,6 +62,34 @@ h2 {
 }
 
 .border {
-    border-color: rgb(39, 184, 169);
-    border-width: 10px;
+    border-color: rgb(39, 184, 169) !important;
+    border-style: solid !important;
+    border-width: 5px !important;
 }
+
+.image-box {
+    position: relative;
+    width: 160px;
+    height: 110px;
+    background: white;
+}
+
+/* .image-1 {
+    top: 0px;
+    left: 0px;
+}
+
+.image-2 {
+    top: -109px;
+    left: 160px;
+}
+
+.image-3 {
+    top: -130px;
+    left: 0px;
+}
+
+.image-4 {
+    top: -240px;
+    left: 160px;
+} */
