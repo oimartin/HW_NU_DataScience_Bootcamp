@@ -40,7 +40,13 @@
 h1 {
     font-family: "Cooper Black";
     color: rgb(39, 184, 169);
-    font-size: 20px;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: "Cooper Black";
+    color: rgb(39, 184, 169);
+    font-size: 18px;
 }
 
 #background {
@@ -85,28 +91,6 @@ h6 {
     background: white;
 }
 
-
-
-/* .image-1 {
-    top: 0px;
-    left: 0px;
-}
-
-.image-2 {
-    top: -109px;
-    left: 160px;
-}
-
-.image-3 {
-    top: -130px;
-    left: 0px;
-}
-
-.image-4 {
-    top: -240px;
-    left: 160px;
-} */
-
 .clicker {
     outline:none;
     cursor:pointer;
@@ -120,3 +104,15 @@ h6 {
     display:block;
     
     }
+
+.comparison_box {
+    min-height: auto;
+    padding: 30px;
+    margin: 5px;
+    background-color: white;
+    position: relative;
+}
+
+.comparison_pic {
+    margin: 10pz;
+}
